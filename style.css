@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(248, 90, 151);
+    margin-bottom: 0 !important;
+}
+
+.card {
+    background-color: rgb(250, 148, 187);
+    margin-top: 0 !important;
+    border-radius: 0; 
+}
+
+.kia {
+    border-radius: 50%; 
+    width: 200px;  
+    height: 200px; 
+    object-fit: cover;
+    border: 5px solid white; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Styling untuk tombol di dalam card Project */
+.btn-outline-pink {
+    color: rgb(248, 90, 151);
+    border-color: rgb(248, 90, 151);
+}
+
+.btn-outline-pink:hover {
+    background-color: rgb(248, 90, 151);
+    color: white;
+}
